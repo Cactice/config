@@ -7,7 +7,7 @@ elif [ "$(expr substr $(uname -s) 1 5)" == 'Linux' ]; then
   cd /usr/share/doc/git/contrib/credential/libsecret
   sudo make
   git config --global credential.helper /usr/share/doc/git/contrib/credential/libsecret/git-credential-libsecret
-elif [ "$(expr substr $(uname -s) 1 10)" == 'MINGW32_NT' ]; then                                                                                           
+elif [ "$(expr substr $(uname -s) 1 10)" == 'MINGW32_NT' ]; then
   OS='Cygwin'
 else
   echo "Your platform ($(uname -a)) is not supported."

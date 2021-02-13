@@ -16,6 +16,8 @@
     "vim.foldfix"                 : true,
     "editor.lineNumbers"          : "relative",
     "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
     "workbench.colorTheme"        : "Solarized Light",
     "colorize.include"            : [
         ".js",
