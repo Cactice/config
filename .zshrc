@@ -12,7 +12,10 @@ ZSH_THEME="robbyrussell"
 HIST_STAMPS="yyyy/mm/dd"
 
 # Plugins
-plugins=(git
+plugins=(
+git
+docker
+docker-compose
 zsh-syntax-highlighting
 zsh-autosuggestions
 )
