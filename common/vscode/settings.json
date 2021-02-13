@@ -1,5 +1,5 @@
 {
-    "editor.fontFamily"        : "Fira Code",
+    "editor.fontFamily"        : "'Fira Code','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
     "editor.fontLigatures"     : true,
     "vim.insertModeKeyBindings": [
         {
@@ -16,7 +16,7 @@
     "vim.foldfix"                 : true,
     "editor.lineNumbers"          : "relative",
     "files.trimTrailingWhitespace": true,
-    "workbench.colorTheme"        : "Braver's Solarized Light",
+    "workbench.colorTheme"        : "Solarized Light",
     "colorize.include"            : [
         ".js",
         ".json"
