@@ -5,11 +5,10 @@
 export ZSH="$HOME/.oh-my-zsh"
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
 export PATH=$PATH:~/.npm-global/bin
-source '/Users/yuya/google-cloud-sdk/path.zsh.inc' || true
-source '/Users/yuya/google-cloud-sdk/completion.zsh.inc' || true
+source "$HOME/google-cloud-sdk/path.zsh.inc" || true
+source "$HOME/google-cloud-sdk/completion.zsh.inc" || true
 
 ZSH_THEME="robbyrussell"
-
 HIST_STAMPS="yyyy/mm/dd"
 
 # Plugins
