@@ -4,14 +4,16 @@ curl \
 zsh \
 vim \
 # Japanese
-language-pack-gnome-ja \
+sudo apt-get install \
+language-pack-gnome-ja \ 
 language-pack-ja \
 firefox-locale-ja \ 
 fonts-noto-cjk-extra \
 ibus-mozc \
-
-#software
+# GUI
+sudo apt-get install \
 guake \
 
-# Video
-nvidia-driver-455 \
+# git secret management
+sudo apt-get install \
+libsecret-1-0 libsecret-1-dev
