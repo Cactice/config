@@ -12,7 +12,12 @@
             "before": [";"],
             "after" : [":"],
         },
+        {
+            "before": ["<CR>"],
+            "after" : ["z","a"],
+        },
     ],
+    "vim.useSystemClipboard": true,
     "vim.foldfix"                 : true,
     "editor.lineNumbers"          : "relative",
     "files.trimTrailingWhitespace": true,
@@ -23,8 +28,6 @@
         ".js",
         ".json"
     ],
-    "vim.disableExtension": false,
-    "vim.useSystemClipboard": true,
     "window.zoomLevel": 2,
     "editor.tabSize": 2,
     "git.enableSmartCommit": true,
