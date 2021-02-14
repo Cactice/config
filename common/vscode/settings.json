@@ -7,6 +7,9 @@
           "after" : ["<Esc>","l"]
         },
       ],
+    "vim.handleKeys": {
+       "<C-f>": false,
+    },
     "vim.normalModeKeyBindingsNonRecursive": [
         {
             "before": [";"],
@@ -17,6 +20,7 @@
             "after" : ["z","a"],
         },
     ],
+    "python.venvFolders": ["${workspaceFolder}/.venv"],
     "vim.useSystemClipboard": true,
     "vim.foldfix"                 : true,
     "editor.lineNumbers"          : "relative",
