@@ -8,3 +8,6 @@ Just execute these to install whatever
 ## Config files
 Config files should be hard linked to the desired path of the software referencing it.  
 Use `ln` to link to config files if not done in the shell scripts.
+
+### Mackup
+Mackup automates the process of linking files
