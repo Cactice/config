@@ -9,3 +9,4 @@ brew install google-chrome --cask
 brew install visual-studio-code --cask
 brew tap homebrew/cask-fonts
 brew install font-fira-code --cask
+brew install mackup

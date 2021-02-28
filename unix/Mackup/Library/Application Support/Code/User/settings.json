@@ -1,0 +1,67 @@
+{
+    "editor.fontFamily"        : "'Fira Code','Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback'",
+    "editor.fontLigatures"     : true,
+    "vim.insertModeKeyBindings": [
+        {
+          "before": ["Enter"],
+          "after" : ["<Esc>","l"]
+        },
+      ],
+    "vim.handleKeys": {
+       "<C-f>": false,
+       "<C-x>": false,
+       "<C-v>": false,
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [";"],
+            "after" : [":"],
+        },
+        {
+            "before": ["<CR>"],
+            "after" : ["z","a"],
+        },
+    ],
+    "python.venvFolders": ["${workspaceFolder}/.venv"],
+    "vim.useSystemClipboard": true,
+    "vim.foldfix"                 : true,
+    "editor.lineNumbers"          : "relative",
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "workbench.colorTheme"        : "Solarized Light",
+    "colorize.include"            : [
+        ".js",
+        ".json"
+    ],
+    "window.zoomLevel": 2,
+    "editor.tabSize": 2,
+    "git.enableSmartCommit": true,
+    "eslint.autoFixOnSave": true,
+    "eslint.validate": [
+      "javascript",
+      "javascriptreact",
+      {"language": "typescript", "autoFix": true },
+      {"language": "typescriptreact", "autoFix": true }
+    ],
+    "go.formatTool": "goimports",
+    "go.useLanguageServer": true,
+    "[typescriptreact]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "editor.codeActionsOnSave": {
+      "source.fixAll.eslint": true
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "terminal.integrated.shell.osx": "/bin/zsh",
+    "git.confirmSync": false,
+    "[typescript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "eslint.workingDirectories": [
+      {
+        "mode": "auto"
+      }
+    ],
+    "git.autofetch": true
+}
