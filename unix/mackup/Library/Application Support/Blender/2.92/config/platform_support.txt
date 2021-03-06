@@ -1,0 +1,1 @@
+{Intel Inc./Intel(R) Iris(TM) Graphics 6100/4.1 INTEL-16.1.11}=SUPPORTED

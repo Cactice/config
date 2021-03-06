@@ -63,5 +63,11 @@
         "mode": "auto"
       }
     ],
-    "git.autofetch": true
+    "git.autofetch": true,
+    "workbench.editorAssociations": [
+      {
+        "viewType": "jupyter.notebook.ipynb",
+        "filenamePattern": "*.ipynb"
+      }
+    ]
 }
