@@ -1,0 +1,4 @@
+[Bookmarks]
+[Recent]
+/Users/yuya/Downloads/
+/Users/yuya/git/blender-sverchok-practice/bpy/
