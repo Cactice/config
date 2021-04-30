@@ -1,4 +1,7 @@
 [Bookmarks]
 [Recent]
+/Users/yuya/Downloads/archive/
+/Users/yuya/git/blender-sverchok-practice/next/public/glb/
+/Users/yuya/git/blender-sverchok-practice/sverchok/mechanical/
 /Users/yuya/Downloads/
 /Users/yuya/git/blender-sverchok-practice/bpy/
